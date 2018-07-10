@@ -28,8 +28,6 @@ buildscript {
     }
     
 }
-
-
       
 # 第二步：在app目录下创建------tinker-support.gradle内容如下所示（示例配置）：
 
@@ -132,9 +130,7 @@ tinkerPatch {
     }
     sevenZip {
         zipArtifact = "com.tencent.mm:SevenZip:1.1.10"
-        
-//        path = "/usr/local/bin/7za"
-
+        //path = "/usr/local/bin/7za"
     }
     
     buildConfig {
